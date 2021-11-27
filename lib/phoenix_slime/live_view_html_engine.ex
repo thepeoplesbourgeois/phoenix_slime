@@ -5,7 +5,6 @@ defmodule PhoenixSlime.LiveViewHTMLEngine do
   Precompiles the String file_path into a function definition
   """
   def compile(path, _name) do
-    IO.inspect("PhoenixSlime.LiveViewHTMLEngine")
     path
     |> read!()
     |> EEx.compile_string(engine: Phoenix.LiveView.HTMLEngine, file: path, line: 1)
