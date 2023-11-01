@@ -20,9 +20,9 @@ defmodule PhoenixSlime.Mixfile do
 
   def deps do
     [
-      {:phoenix, "~> 1.6.0"},
+      {:phoenix, "~> 1.6"},
       {:phoenix_html, "~> 3.0"},
-      {:phoenix_live_view, "~> 0.17.2"},
+      {:phoenix_live_view, "~> 0.17"},
       {:jason, "~> 1.0", optional: true},
       {:slime, github: "tensiondriven/slime", branch: "master"},
       {:ex_doc, ">= 0.0.0", only: :dev},
