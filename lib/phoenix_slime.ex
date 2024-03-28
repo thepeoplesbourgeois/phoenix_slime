@@ -70,7 +70,7 @@ defmodule PhoenixSlime do
     expr
      |> Slime.Renderer.precompile_heex()
      |> EEx.compile_string(
-          engine: Phoenix.LiveView.HTMLEngine,
+          engine: Phoenix.LiveView.Engine,
           line: __CALLER__.line + 1
         )
   end
