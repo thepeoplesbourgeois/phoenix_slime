@@ -22,7 +22,7 @@ defmodule PhoenixSlime.Mixfile do
     [
       {:phoenix, "~> 1.6"},
       {:phoenix_html, "~> 4.0"},
-      {:phoenix_live_view, "~> 0.17"},
+      {:phoenix_live_view, ">= 0.17.0"},
       {:jason, "~> 1.0", optional: true},
       {:slime, github: "thepeoplesbourgeois/slime", branch: "master"},
       {:ex_doc, ">= 0.0.0", only: :dev},
